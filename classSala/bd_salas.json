@@ -1,0 +1,14 @@
+{
+     "2": {
+          "nro_sala": 2,
+          "capacidade": 34
+     },
+     "10": {
+          "nro_sala": 10,
+          "capacidade": 100
+     },
+     "100": {
+          "nro_sala": 100,
+          "capacidade": 2
+     }
+}

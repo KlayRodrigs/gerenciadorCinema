@@ -1,0 +1,28 @@
+import os
+import json
+
+class Database:
+    def __init__(self, valor, estrutura_de_armazenamento=[]) -> None:
+        self._banco = estrutura_de_armazenamento
+        self._adicionar = self._banco.append(valor)
+        
+
+    def add_database(self, caminho_arquivo:str, identacao:int):
+        with open(caminho_arquivo, 'w') as arq_json:
+            json.dump(self._banco, arq_json, indent=identacao)
+
+    def _load_database(self, caminho_arquivo:str, identacao:int):
+        if self.verificar_arquivo(caminho_arquivo):
+            with open(caminho_arquivo, 'r') as arq_json:
+                self._banco = json.load(arq_json)
+            return self._banco
+            
+        self.add_database(caminho_arquivo, identacao)
+
+    def load_database(self, caminho_arquivo, identacao):
+        return self._load_database(caminho_arquivo, identacao)
+
+    def verificar_arquivo(self, caminho_arquivo:str):
+        if os.path.exists(caminho_arquivo):
+            return caminho_arquivo
+        return False

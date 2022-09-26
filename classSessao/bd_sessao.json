@@ -1,0 +1,30 @@
+{
+     "24/02/22": {
+          "dt_sessao": "24/02/22",
+          "hor_sessao": "23",
+          "valor_inteira": 25.0,
+          "valor_meia": 12.5,
+          "status": 1
+     },
+     "22/4/1999": {
+          "dt_sessao": "22/4/1999",
+          "hor_sessao": "00:00",
+          "valor_inteira": 20.0,
+          "valor_meia": 10.0,
+          "status": 10
+     },
+     "22/06/1999": {
+          "dt_sessao": "22/06/1999",
+          "hor_sessao": "23:30",
+          "valor_inteira": 30.0,
+          "valor_meia": 15.0,
+          "status": 15
+     },
+     "1": {
+          "dt_sessao": "1",
+          "hor_sessao": "20:30",
+          "valor_inteira": 40.0,
+          "valor_meia": 20.0,
+          "status": 20
+     }
+}
