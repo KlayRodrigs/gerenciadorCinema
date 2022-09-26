@@ -2,7 +2,7 @@ import os
 import json
 
 # MUDAR PARA O FORMATO DE DICT:
-# Já mudei pra dict. Para ficar nesse formato deve inserir assim no arquivo json
+# Já mudei para dict. Para ficar nesse formato deve inserir assim no arquivo json
 '''
 ID SALA1{
     FILME{

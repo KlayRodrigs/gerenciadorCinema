@@ -10,5 +10,25 @@
      "100": {
           "nro_sala": 100,
           "capacidade": 2
+     },
+     "7": {
+          "nro_sala": 7,
+          "capacidade": 100
+     },
+     "1000": {
+          "nro_sala": 1000,
+          "capacidade": 200
+     },
+     "30": {
+          "nro_sala": 30,
+          "capacidade": 100
+     },
+     "100000": {
+          "nro_sala": 100000,
+          "capacidade": 200
+     },
+     "1": {
+          "nro_sala": 1,
+          "capacidade": 100
      }
 }
